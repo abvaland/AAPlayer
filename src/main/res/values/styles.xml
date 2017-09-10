@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#9B26AF</item>
+        <item name="colorPrimaryDark">#7A1EA1</item>
+        <item name="colorAccent">#68EFAD</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/colorPrimary</item>
+    </style>
+
+</resources>

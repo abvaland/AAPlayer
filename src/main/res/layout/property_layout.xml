@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title : "
+            android:gravity="right"
+            android:textAlignment="gravity"
+            />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txt_prty_fileName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Ans"
+            android:textAlignment="gravity"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:gravity="right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Size : "
+            android:textAlignment="gravity"
+             />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txt_prty_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text="Ans"
+            android:textAlignment="gravity"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Path : "
+            android:gravity="right"
+            android:textAlignment="gravity"
+             />
+
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/txt_prty_path"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:gravity="left"
+            android:text="Ans"
+            android:textAlignment="gravity"
+             />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="end|right">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="CANCEL" />
+
+    </LinearLayout>
+</LinearLayout>

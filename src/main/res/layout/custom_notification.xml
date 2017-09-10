@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:id="@+id/customNotification"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgMusic"
+        android:layout_width="80dp"
+        android:background="#FFFF"
+        android:layout_height="80dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_gravity="right"
+            android:padding="5dp"
+            android:id="@+id/imgClose"
+            android:src="@drawable/ic_close_white_24dp"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:id="@+id/tvSongName"
+            android:layout_width="match_parent"
+            android:text="badrinath ki dulhania o mere hamsafar"
+            android:textSize="14sp"
+            android:maxLines="2"
+            android:layout_marginRight="25dp"
+            android:textColor="#FFF"
+            android:padding="5dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_width="match_parent"
+                android:background="#444"
+                android:layout_height="0.1dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/imgPrev"
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_skip_previous_white_36dp"
+                    android:layout_height="30dp" />
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:id="@+id/imgPLay"
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_play_arrow_white_36dp"
+                        android:layout_height="30dp" />
+                    <ImageView
+                        android:id="@+id/imgPause"
+                        android:layout_width="30dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/ic_pause_white_36dp"
+                        android:layout_height="30dp" />
+
+                </FrameLayout>
+
+                <ImageView
+                    android:id="@+id/imgNext"
+                    android:layout_width="30dp"
+                    android:src="@drawable/ic_skip_next_white_36dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
